@@ -1,4 +1,4 @@
-package com.igc.diseasepredictor;
+package com.igc.diseasepredictor.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,10 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import com.igc.diseasepredictor.R;
 
 public class Welcome_Activity extends AppCompatActivity
 {

@@ -1,4 +1,4 @@
-package com.igc.diseasepredictor;
+package com.igc.diseasepredictor.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.igc.diseasepredictor.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

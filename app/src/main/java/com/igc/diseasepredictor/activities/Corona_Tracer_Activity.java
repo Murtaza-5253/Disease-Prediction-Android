@@ -1,4 +1,4 @@
-package com.igc.diseasepredictor;
+package com.igc.diseasepredictor.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,8 +30,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
+import com.igc.diseasepredictor.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -304,7 +304,7 @@ public class Corona_Tracer_Activity extends AppCompatActivity
     {
         String Output = lstSelChron.toString().replaceAll("\\[|,|]$","\n\n");
         Toast.makeText(this, Output.trim(), Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(Corona_Tracer_Activity.this,Info.class);
+        Intent i = new Intent(Corona_Tracer_Activity.this, Info.class);
         i.putExtra("Count",yes);
         i.putExtra("Chronic",Output);
         startActivity(i);

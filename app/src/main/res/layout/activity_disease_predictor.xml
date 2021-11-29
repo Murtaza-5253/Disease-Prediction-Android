@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drwrDisease"
     android:background="#ffffff"
-    tools:context=".DashBoard_Activity">
+    tools:context=".activities.DashBoard_Activity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

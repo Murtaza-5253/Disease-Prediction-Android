@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
 
-    tools:context=".DashBoard_Activity">
+    tools:context=".activities.DashBoard_Activity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -103,6 +103,29 @@
                     android:textColorLink="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold"></Button>
+
+                <Button
+                    android:id="@+id/btnHpFinder"
+                    android:layout_width="0dp"
+                    android:onClick="DPredictor"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradientds"
+                    android:drawableEnd="@drawable/hospital"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="\t\t\tHospitals Finder"
+                    android:textAlignment="textStart"
+                    android:textColor="#205072"
+                    android:textColorHighlight="#707070"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </Button>
 
 
 

@@ -1,4 +1,4 @@
-package com.igc.diseasepredictor;
+package com.igc.diseasepredictor.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,9 +42,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.igc.diseasepredictor.R;
 import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
 
-import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;

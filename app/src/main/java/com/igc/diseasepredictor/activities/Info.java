@@ -1,4 +1,4 @@
-package com.igc.diseasepredictor;
+package com.igc.diseasepredictor.activities;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -7,6 +7,8 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.igc.diseasepredictor.R;
 
 public class Info extends AppCompatActivity
 {
